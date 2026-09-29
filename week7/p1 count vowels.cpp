@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char str[100];
+	char *ptr;
+	int vowels = 0;
+	
+	cout << "Enter a string: ";
+	cin.getline(str,100);
+	
+	ptr = str;
+	
+	while(*ptr != '\0')
+	{
+	if(*ptr== 'a' || *ptr=='e' ||*ptr== 'i' || *ptr=='o' || *ptr== 'u' || *ptr=='A' || 
+		*ptr== 'E' || *ptr=='I' ||*ptr== 'O' || *ptr=='U' )
+	{
+		vowels++;
+	}
+	
+	ptr++;
+	
+    }
+    
+    cout <<"Number of Vowels = "<<vowels;
+    
+    return 0;
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
