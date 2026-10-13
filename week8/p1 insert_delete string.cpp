@@ -7,7 +7,7 @@ string insertString(string str,string sub,int position)
 {
 	str.insert(position,sub);
 	return str;
-}
+} 
 
 
 string deleteString(string str,int position,int n)
@@ -46,16 +46,6 @@ int main()
 	
 	cout<<"String after deletion: "<<str<<endl;
 	return 0;
-
-
-
-
-
-
-
-
-
-	
 
 }
 
